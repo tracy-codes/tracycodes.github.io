@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>tracy@tracycodes.com (Tracy Adams)</managingEditor>
       <webMaster>tracy@tracycodes.com (Tracy Adams)</webMaster>
-      <lastBuildDate>Tue, 22 Oct 2019 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 03 Jan 2020 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://tracycodes.com/index.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://tracycodes.com/blog/how-to-setup-shopify-slate-on-ubuntu.</guid>
+    <title>How To Setup Shopify Slate on Ubuntu</title>
+    <link>https://tracycodes.com/blog/how-to-setup-shopify-slate-on-ubuntu.</link>
+    <description>null</description>
+    <pubDate>Fri, 03 Jan 2020 00:00:00 GMT</pubDate>
+    <author>tracy@tracycodes.com (Tracy Adams)</author>
+    <category>Shopify</category><category>Web Dev</category>
+  </item>
+
   <item>
     <guid>https://tracycodes.com/blog/coding-practicies-you-should-learn-now</guid>
     <title>Coding practices you should learn now, and utilize forever</title>
