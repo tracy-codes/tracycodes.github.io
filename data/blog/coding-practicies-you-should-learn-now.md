@@ -5,12 +5,10 @@ tags: [Dev]
 draft: false
 summary: These are 5 coding practices I've come to know and love over the last few years that I thiank myself for every day.
 images:
-  [
-    'https://og-image-mu-sooty.vercel.app/**Top%205%20Coding%20Practices**.png?theme=dark&md=1&fontSize=100px',
-  ]
+  ['https://og.tracycodes.com/**Top%205%20Coding%20Practices**.png?theme=dark&md=1&fontSize=100px']
 ---
 
-![hero-banner](https://og-image-mu-sooty.vercel.app/**Top%205%20Coding%20Practices**.png?theme=dark&md=1&fontSize=100px)
+![hero-banner](https://og.tracycodes.com/**Top%205%20Coding%20Practices**.png?theme=dark&md=1&fontSize=100px)
 
 Here are 5 coding practices I've come to know and love over the last few years that I thank myself for every day.
 
