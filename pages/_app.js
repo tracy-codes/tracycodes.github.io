@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
   const router = useRouter()
   useEffect(() => {
     Fathom.load('GTYMHZJT', {
-      includedDomains: ['tracycodes.com'],
+      includedDomains: ['tracycodes.com', 'www.tracycodes.com'],
     })
 
     function onRouteChangeComplete() {
