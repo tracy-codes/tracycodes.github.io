@@ -1,5 +1,5 @@
 ---
-title: Quick Shopify Dev Tip #3
+title: 'Quick Shopify Dev Tip #3'
 date: '2020-07-24'
 tags: [Shopify, Dev]
 draft: false

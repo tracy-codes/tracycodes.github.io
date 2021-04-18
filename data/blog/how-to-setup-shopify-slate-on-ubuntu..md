@@ -1,7 +1,7 @@
 ---
 title: How To Setup Shopify Slate on Ubuntu
 date: '2020-01-03'
-tags: [Shopify, Web Dev]
+tags: [Shopify, Dev]
 draft: false
 summary:
 images:
