@@ -10,6 +10,7 @@ import LayoutWrapper from '@/components/LayoutWrapper'
 import MDXComponents from '@/components/MDXComponents'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import * as Fathom from 'fathom-client'
 
 export default function App({ Component, pageProps }) {
   const router = useRouter()
