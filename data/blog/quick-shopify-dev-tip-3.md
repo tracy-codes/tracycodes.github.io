@@ -1,21 +1,20 @@
 ---
-title: 'Quick Shopify Dev Tip #2'
-date: '2020-07-22'
+title: 'Quick Shopify Dev Tip #3'
+date: '2020-07-24'
 tags: [Shopify, Dev]
 draft: false
-summary: Add and improve your Shopify App's code automatically from a theme! Nobody likes an angry customer after they've tried to uninstall your app.
+summary: Make sure you're renaming your shopify sections with Shpify Schema or else you'll be left with a mess.
 images:
   [
-    'https://og.tracycodes.com/**Quick%20Shopify%20Dev%20Tip%20%232**.png?theme=dark&md=1&fontSize=100px',
+    'https://og.tracycodes.com/**Quick%20Shopify%20Dev%20Tip%20%233**.png?theme=dark&md=1&fontSize=100px',
+    '/static/images/shopify-section-hell.png',
   ]
 ---
 
-![Quick Shopify Dev Tip #2](https://og.tracycodes.com/**Quick%20Shopify%20Dev%20Tip%20%232**.png?theme=dark&md=1&fontSize=100px)
+![Quick Shopify Dev Tip #3](https://og.tracycodes.com/**Quick%20Shopify%20Dev%20Tip%20%233**.png?theme=dark&md=1&fontSize=100px)
 
-If you're building a Shopify App that injects code into the storefront, make sure it can also remove that code automatically on install. Nothing is worse than a customer trying to remove your app and having to dig into their theme's code and then angrily leaving you a review afterwards.
+Any sections you create will show u in the customizer for the homepage as a section that can be added dynamically. To make sure you avoid confusion for your customers/clients, make sure you use Shopify Schema's "name" field for your sections. It's common practice to duplicate sections for new page templates so you can have separate content. You don't want to end up with this as options in your home page's Customizer:
 
-To make this a smooth process on your end, what you can do is create separate snippets with the code you want on the store, then update theme.liquid or any other template/section with `{% render %}` tags (see [this post](/blog/quick-shopify-dev-tip-1) to learn about the new render tag) to have your code be included in the theme itself.
+![Shopify Section Hell](/static/images/shopify-section-hell.png)
 
-You can read more about Shopify's Theme API endpoints here: [https://shopify.dev/docs/admin-api/rest/reference/online-store/theme](https://shopify.dev/docs/admin-api/rest/reference/online-store/theme)
-
-You can read more about how to add/remove/manage files from specific themes through the Theme Asset API endpoint here: [https://shopify.dev/docs/admin-api/rest/reference/online-store/asset](https://shopify.dev/docs/admin-api/rest/reference/online-store/asset)
+You can read more about Shopify's Theme Section Schema here: [https://shopify.dev/tutorials/develop-theme-use-sections#name](https://shopify.dev/tutorials/develop-theme-use-sections#name)
