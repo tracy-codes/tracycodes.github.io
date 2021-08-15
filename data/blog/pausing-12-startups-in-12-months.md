@@ -2,7 +2,7 @@
 title: 'Putting a pause on 12 startups in 12 months'
 date: '2021-08-15'
 tags: [Startups, Dev]
-draft: true
+draft: false
 summary: I built but didn't ship
 images: ['https://og.tracycodes.com/**Hitting%20pause**.png?theme=dark&md=1&fontSize=100px']
 ---
